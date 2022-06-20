@@ -5,27 +5,55 @@
 
 # 1. Sorting Algorithm:
 - It is the algorithm that arranges the order of the items in a list.
-
+Insertion Sort
 Bubble Sort
 Merge Sort
 Quicksort
 Heap Sort
+selection Sort
 
 # 2. Searching Algorithm:
 - It is the algorithm that finds an element in a data set.
-
+Linear Search
 Binary Search
 Breadth-First Search(BFS)
 Depth-First Search(DFS)
+# 3 Graphs
 
-# 3. Dynamic Programming:
+Kruskal's Algorithm
+Dijkstra's Algorithm
+Bellman ford Algorithm
+Floyd Warshall Algorithm
+Topological Sort Algorithm
+Flood Fill Algorithm
+Lee Algorithm
+
+
+# 4 Arrays
+
+kadane's Algorithm
+Floyd's Cycle Detection Algorithm
+KMP Algorithm
+Quick selection Algorithm
+Boyer-More Majority vote Algorithm
+
+
+# 5 Basics
+
+Huffman Coding Compression Algorithm
+Euclid's Algorithm
+Union Find Algorithm
+
+
+
+# 6. Dynamic Programming:
 - DP is an algorithmic technique for solving an optimization problem by breaking it down into simpler sub-problems.
 
-# 4. Recursion Algorithm:
+# 7. Recursion Algorithm:
 - Recursion is a problem-solving technique in which the solution is dependent on solutions
 to smaller instances of the same problem.
 
-# 5. Divide and Conquer:
+# 8. Divide and Conquer:
 - The Divide and Conquer algorithm consists of a dispute using the three steps listed below.
 
 * Divide the original problem into sub-problems.
@@ -34,7 +62,7 @@ to smaller instances of the same problem.
 
 
 
-SPRING BOOT 
+SPRING BOOT
 -------------
 [0auth2](https://spring.io/guides/tutorials/spring-boot-oauth2/)  
 [Spring Security Fundamentals](https://youtube.com/playlist?list=PLEocw3gLFc8XRaRBZkhBEZ_R3tmvfkWZz)  
@@ -66,9 +94,9 @@ JAVA
 
 
 
-  
+
  [Ebook-courses-downloader](https://www.ebooks-courses-downloader.com/)  
- 
+
 [CourseSity](https://coursesity.com/)  
 [760+ Programming and Computer Science Courses](https://www.freecodecamp.org/news/free-online-programming-cs-courses/)
 
@@ -298,7 +326,7 @@ https://secure.phabricator.com/book/phabcontrib/article/n_plus_one/
 
 JPA criteria
 https://en.wikibooks.org/wiki/Java_Persistence/Criteria
-  
+
 Reactive Programming  
 https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 
@@ -341,10 +369,3 @@ https://www.udemy.com/course/kubernetes-getting-started/
 https://www.redhat.com/.../do092-developing-cloud-native...
 𝐃𝐞𝐯𝐎𝐩𝐬 𝐓𝐡𝐞 𝐇𝐚𝐫𝐝 𝐖𝐚𝐲 𝐀𝐖𝐒
 https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS
-
-
-
-
-
-
-

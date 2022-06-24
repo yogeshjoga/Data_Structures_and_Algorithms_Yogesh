@@ -4,6 +4,7 @@
 
 
 # 1. Sorting Algorithm:
+```java
 - It is the algorithm that arranges the order of the items in a list.
 Insertion Sort
 Bubble Sort
@@ -11,7 +12,7 @@ Merge Sort
 Quicksort
 Heap Sort
 selection Sort
-
+```
 # 2. Searching Algorithm:
 - It is the algorithm that finds an element in a data set.
 Linear Search

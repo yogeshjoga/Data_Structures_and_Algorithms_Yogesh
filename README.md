@@ -1,6 +1,9 @@
 # Data_Structures_and_Algorithms_Yogesh
 
-welcome to DSA 100 DAYS... GamePlay
+welcome to DSA 100 DAYS... GamePlay 
+REPO HackerRank and LeetCode..... 100 days game paly 
+from 14/10/2022 this is my First day taken real task in my Current working company....
+
 
 
 # 1. Sorting Algorithm:

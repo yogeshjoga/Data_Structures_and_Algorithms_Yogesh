@@ -17,12 +17,15 @@ public class ArrayDuplicatedRemove {
         }
 
         public int removeArray(int[] nums) {
+            // lets understand this
             Arrays.sort(nums);
             int i = nums.length > 0 ? 1 : 0;
             for (int n : nums)
                 if (n > nums[i - 1])
                     nums[i++] = n;
+        
             return i;
+
         }
 
 
@@ -33,6 +36,11 @@ public class ArrayDuplicatedRemove {
         int[] nums ={1,1,2,2,3,4,5,3,4,6};
       //  arrayDuplicatedRemove.removeDuplicateArray(nums);
         arrayDuplicatedRemove.removeArray(nums);
+        for (int i : nums) {
+            System.out.println(i);
+        }
+
+
         
     }
     

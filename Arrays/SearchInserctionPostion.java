@@ -1,6 +1,5 @@
 package Arrays;
 
-import javax.swing.text.AbstractDocument.BranchElement;
 
 public class SearchInserctionPostion {
 
@@ -23,13 +22,25 @@ public class SearchInserctionPostion {
         // inserction the number
         for(int k=0; k<nums.length; k++){
             if(nums[k] == 2){
-                System.out.println("number added position : "+ nums[k]+" number :"+ target);
+                System.out.println("number added position : "+ nums[k]+" number : "+ target);
             }
         }
 
         return i;
     }
 
+    /*
+     * let's implement the actuall code to insertion the number position
+     * 
+     */
+    public int inserctionNum(int[] nums, int target){
+        for(int i=0; i<nums.length; i++){
+            if(nums[i] >=  target){
+                return i;
+            }
+        }
+        return nums.length;
+    }
 
 
     public static void main(String[] args) {
@@ -37,6 +48,7 @@ public class SearchInserctionPostion {
         int[] arr = {1,2,4,5};
         int target = 3;
         searchInserctionPostion.searchPosition(arr, target);
+        searchInserctionPostion.inserctionNum(arr,target);
         
     }
     

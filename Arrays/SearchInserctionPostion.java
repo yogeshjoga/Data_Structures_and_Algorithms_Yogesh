@@ -36,7 +36,9 @@ public class SearchInserctionPostion {
     public int inserctionNum(int[] nums, int target){
         for(int i=0; i<nums.length; i++){
             if(nums[i] >=  target){
+                System.out.println(i);
                 return i;
+                
             }
         }
         return nums.length;
@@ -47,7 +49,7 @@ public class SearchInserctionPostion {
         SearchInserctionPostion searchInserctionPostion = new SearchInserctionPostion();
         int[] arr = {1,2,4,5};
         int target = 3;
-        searchInserctionPostion.searchPosition(arr, target);
+      //  searchInserctionPostion.searchPosition(arr, target);
         searchInserctionPostion.inserctionNum(arr,target);
         
     }

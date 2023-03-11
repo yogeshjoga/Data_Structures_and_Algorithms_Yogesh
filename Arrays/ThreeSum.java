@@ -6,6 +6,9 @@ import java.util.List;
 
 public class ThreeSum {
 
+    // this is MEDIUM type Question so don't touch medium question before 100 easy questions
+    // solve minimum 100 easy type questions after jump into medium 
+    // once you sloved 100 easy questions, use the algo and logic's what you learn in easy type questions
     public  List<List<Integer>> threeSums(int[] nums){
         List<List<Integer>> result = new ArrayList<>();
         int len = nums.length;

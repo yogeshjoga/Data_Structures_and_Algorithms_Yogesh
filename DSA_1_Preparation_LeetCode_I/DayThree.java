@@ -50,12 +50,33 @@ public class DayThree {
        return Arrays.copyOfRange(arr, 0, size);
    }
 
+   /*
+    * Day-2 Second question we can slove by using inBuild Math class methods and Hashmap
+    */
+    public int maxProfit(int[] prices) {
+        if (prices == null || prices.length <= 1) return 0;
+
+      int minSoFar = Integer.MAX_VALUE;
+      int res = 0;
+
+      for (int p: prices) {
+          if (p > minSoFar) {
+              res = Math.max(res, p - minSoFar);
+          } else {
+              minSoFar = p;
+          }
+      }
+
+      return res;
+  }
+
     public static void main(String[] args) {
         DayThree dayThree = new DayThree();
         int[] nums1 ={1,2,2,3};
         int[] nums2 = {2,2};
        // dayThree.intersect(nums1, nums2);
         dayThree.intersectTest(nums1, nums2);
+        dayThree.maxProfit(nums1);
     }
     
 }

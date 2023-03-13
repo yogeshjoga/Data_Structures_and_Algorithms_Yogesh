@@ -15,7 +15,7 @@ public class DayTwo {
     }
 
     public int[] test2(int[] nums1, int m, int[] nums2, int n){
-        int m1= m-1, n1= n-1;
+        int m1= m-1;
         for(int i=0; i<n; i++){
             nums1[m1+1+i]=nums2[i];
         }

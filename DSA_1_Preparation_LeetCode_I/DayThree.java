@@ -72,10 +72,10 @@ public class DayThree {
 
     public static void main(String[] args) {
         DayThree dayThree = new DayThree();
-        int[] nums1 ={1,2,2,3};
+        int[] nums1 ={7,1,5,3,6,4};
         int[] nums2 = {2,2};
        // dayThree.intersect(nums1, nums2);
-        dayThree.intersectTest(nums1, nums2);
+      //  dayThree.intersectTest(nums1, nums2);
         dayThree.maxProfit(nums1);
     }
     

@@ -50,7 +50,34 @@ public int hammingWeight2(int n) {
     }
     return sum;
 }
+
+
+
+
+/*
+ * 2nd Question 
+ * let's start 
+ */
+
+ public int subtractProductAndSum(int n) {
+    int sum = 0;
+    int product = 1;
+    while (n > 0) {
+        sum += n % 10;
+        product *= n % 10;
+        n /= 10;
+    }
+    return product - sum;
+}
+
+
+
     public static void main(String[] args) {
+        DayTwo dayTwo = new DayTwo();
+
+        int n = 234;
+
+        dayTwo.hammingWeight(n);
         
     }
     

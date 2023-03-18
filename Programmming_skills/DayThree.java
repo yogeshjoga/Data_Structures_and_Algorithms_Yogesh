@@ -15,12 +15,32 @@ public class DayThree {
         return 0;
     }
     
-    
+
+    // debug it and learn it
+    public int nearestValidPoint(int x, int y, int[][] points) {
+      int ans = -1;
+      int minDist = Integer.MAX_VALUE;
+      // need to understand math class functions and inBuild Methods
+      for (int i = 0; i < points.length; ++i) {
+        final int dx = x - points[i][0];
+        final int dy = y - points[i][1];
+        if (dx == 0 || dy == 0) {
+          final int dist = Math.abs(dx + dy);
+          if (dist < minDist) {
+            minDist = dist;
+            ans = i;
+          }
+        }
+      }
+
+      return ans;
+    }
 
     public static void main(String[] args) {
         DayThree dayThree = new DayThree();
         int[] nums ={2,1,2};
         dayThree.largestPerimeter(nums);
+        dayThree.nearestValidPoint(0, 0, null);
     }
     
 }

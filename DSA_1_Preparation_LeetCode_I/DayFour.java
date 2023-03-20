@@ -47,6 +47,7 @@ public class DayFour {
         return result;
     }
 
+    
 
     public static void main(String[] args) {
         DayFour dayFour = new DayFour();

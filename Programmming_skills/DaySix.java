@@ -1,11 +1,14 @@
 package Programmming_skills;
 
+import java.util.Arrays;
+
 public class DaySix {
     // Start the DaySix Questions solve
     //ARRAYs concept lets understand the arrays and loops basic math functions 
     // arrays build in functions....
 
     //1588. Sum of All Odd Length Subarrays
+    // 1st solution
     public int sumOddLengthSubarrays(int[] arr) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -35,6 +38,17 @@ public class DaySix {
           nums[startIdx++] = 0;
         }
     }
+    
+
+    // 1672. Richest Customer Wealth
+    // 3rd solution
+    public int maximumWealth(int[][] accounts) {
+        return Arrays.stream(accounts)
+        .map(e -> Arrays.stream(e).sum())
+        .max(Integer::compareTo)
+        .orElse(0);
+    }
+
 
 
 

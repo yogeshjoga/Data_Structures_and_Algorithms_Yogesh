@@ -1,4 +1,4 @@
-package Programmming_skills;
+package Programmming_skills_LeetCode;
 
 import java.util.Set;
 

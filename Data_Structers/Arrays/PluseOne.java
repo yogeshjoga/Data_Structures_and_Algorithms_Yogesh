@@ -1,4 +1,4 @@
-package Arrays;
+package Data_Structers.Arrays;
 
 public class PluseOne {
 

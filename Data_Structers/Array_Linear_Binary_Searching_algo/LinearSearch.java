@@ -1,4 +1,4 @@
-package Array_Linear_Binary_Searching_algo;
+package Data_Structers.Array_Linear_Binary_Searching_algo;
 
 import java.util.Arrays;
 

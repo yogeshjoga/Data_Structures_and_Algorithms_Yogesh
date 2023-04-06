@@ -4,6 +4,22 @@ welcome to DSA 100 DAYS... GamePlay
 REPO HackerRank and LeetCode..... 100 days game paly 
 from 14/10/2022 this is my First day taken real task in my Current working company....
 
+# Most Imp DSA's 
+
+```java
+
+Must complete these Data Structers 
+
+         Arrays
+         Strings
+         LinkedList
+         Stack
+         Queue
+         Tree
+         Heap
+         Graph
+         Hash
+```
 
 
 # 1. Sorting Algorithm:

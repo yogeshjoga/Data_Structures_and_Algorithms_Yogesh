@@ -49,14 +49,47 @@ public class SecondLargestElement {
                return a[total-2];  
         }  
 
+        int print2largest(int arr[], int n) {
+            int temp;
+            for(int i=0; i<n-1; i++){
+                if(arr[i] > arr[i+1]){
+                    temp = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = temp;
+                    i= -1;
+                }
+            }
+          return arr[n-2];
+        }
+
+        /*
+         * this is the actuall problem  with solution 
+         * without sorting the array 
+         * finding the second largest element 
+         * lets see the algo
+         */
+      public static int print2largest2(int arr[], int n) {
+            int prev = -1;
+            int max = arr[0];
+            for(int i=1; i<arr.length; i++){
+                if(arr[i] > max){
+                    prev = max;
+                    max = arr[i];
+                }
+                else if(arr[i] < max && prev<arr[i]){
+                    prev = arr[i];
+                }
+            }
+            return prev;
+          }
 
 
     public static void main(String[] args) {
         int[] arr = {1,4,3,34,35};
         int len = 5;
-      secondLargest(arr, len);
+    //  secondLargest(arr, len);
        // getSecondLargest(arr, len);
-
+       print2largest2(arr, len);
     }
     
 }

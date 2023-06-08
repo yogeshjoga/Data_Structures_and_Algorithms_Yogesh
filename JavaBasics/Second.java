@@ -1,4 +1,4 @@
-package JavaBasics;
+
 
 public class Second  /*extends MyFirstJava  */{
 
@@ -36,7 +36,7 @@ public class Second  /*extends MyFirstJava  */{
         System.out.println("poly " + sub);
     }
 
-
+}
 
 /**
  * oops
@@ -69,7 +69,7 @@ public class Second  /*extends MyFirstJava  */{
  *             class using the reference of the abstract class. For example,
  *             Animal.staticMethod();
  */
-  public class abst{
+  class abst{
       private int a ;
       
       public setA(int a){
@@ -90,31 +90,7 @@ public class Second  /*extends MyFirstJava  */{
 
 
 
-
-
-
-
-
-
-
-
-
-
-    public static void main(String[] args) {
-        sub(10, 3);
-    }
-
-
-
-
-
-
-
-
-
-
-
-    public class Inner /* extends from Second */{
+   class Inner /* extends from Second */{
         // constructors can't inherted
          // y bcoz it as no object refs   it can automatically invoke 
         Second sc = new Second(a, b);
@@ -122,4 +98,4 @@ public class Second  /*extends MyFirstJava  */{
 
     }
     
-}
+
